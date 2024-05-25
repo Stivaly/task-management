@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(246, 246, 236);
+    background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+    background-attachment: fixed; /* Esto hace que el fondo permanezca fijo al hacer scroll */
+    background-position: center; /* Esto centra la imagen */
+}
+
+p { 
+    margin-top: auto !important;
+    margin-bottom: 0 !important;
+}
+
+footer {
+    background-color: #263238;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    padding: 64px 165px;
+    align-items: flex-start;
+    gap: 125px; 
+}
+
+.logo-nav {
+    display: flex;
+    height: 30px;
+    padding: 3px 15.093px 3px 8.85px;
+    align-items: center;
+    gap: 5px;
+}
+
+.text-logo {
+    color: #000;
+    font-family: Lalezar;
+    font-size: 32px;
+}
+.text-logo-white {
+    color: #fff;
+    font-family: Lalezar;
+    font-size: 32px;
+}
+
+.welcome {
+    color:#4D4D4D;
+    font-family: Inter;
+    font-size: 64px;
+}
+
+.info-h1 {
+    color: #2194F3;
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.info-2 {
+    color: #717171;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.info-3 {
+    color: #4D4D4D;
+    font-family: Inter;
+    font-size: 36px;
+}
+
+.info-4 {
+    color: #717171;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px; 
+    width: 350px; 
+}
+
+.text-footer-1 {
+    color: #F5F7FA;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.footer-2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 635px;
+}
+
+.footer-2-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px; 
+}
+
+.text-footer-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.task-to-do {
+    display: flex;
+    width: 400px;
+    padding: 32px 24px 64px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px; 
+    background: #FAFAFA;
+    border-radius: 10px;
+}
+
