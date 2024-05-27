@@ -21,6 +21,10 @@ footer {
     gap: 125px; 
 }
 
+.a-text {
+    font-size: 24px !important;
+}	
+
 .logo-nav {
     display: flex;
     height: 30px;
@@ -29,10 +33,14 @@ footer {
     gap: 5px;
 }
 
+.text-btn {
+    font-size: 20px;
+}
+
 .text-logo {
     color: #000;
     font-family: Lalezar;
-    font-size: 32px;
+    font-size: 40px;
 }
 .text-logo-white {
     color: #fff;
@@ -55,7 +63,7 @@ footer {
 .info-2 {
     color: #717171;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .info-3 {
