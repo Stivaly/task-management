@@ -183,7 +183,6 @@ footer {
 td {
     text-align: center; 
     vertical-align: middle;
-    white-space: pre-wrap; 
     max-width: 60px; 
     overflow-wrap: break-word;
   }
@@ -261,7 +260,8 @@ td {
   .resumen-container {
     margin-bottom: 1em;
     max-width: 600%;  /* Asegúrate de que no se expanda más allá del contenedor */
-    word-wrap: break-word;  /* Permite romper palabras largas */
-    white-space: pre-wrap;
-    text-align: justify; 
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;  /* Permite romper palabras largas */
+    text-align: center; 
 }
