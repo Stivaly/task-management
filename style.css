@@ -1,3 +1,10 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: rgb(246, 246, 236);
     background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
@@ -19,6 +26,7 @@ footer {
     padding: 64px 165px;
     align-items: flex-start;
     gap: 125px; 
+    width: 100%;
 }
 
 .a-text {
@@ -83,7 +91,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 40px; 
-    width: 350px; 
+    width: 100%; 
 }
 
 .text-footer-1 {
@@ -96,7 +104,7 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 30px;
-    width: 635px;
+    width: 100%;
 }
 
 .footer-2-inner {
@@ -104,6 +112,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px; 
+    width: 100%;
 }
 
 .text-footer-2 {
