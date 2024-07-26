@@ -44,7 +44,7 @@ function createCard(containerId, title, content, username) {
                     <blockquote class="blockquote mb-1">
                         <p>${content}</p>
                         <br>
-                        <div class="blockquote-footer">Uusuario: <cite title="Source Title">${username}</cite></div>
+                        <div class="blockquote-footer">Usuario: <cite title="Source Title">${username}</cite></div>
                     </blockquote>
                 </div>
             </div>
