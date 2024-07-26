@@ -75,9 +75,9 @@ $(document).ready(function() {
     $(".column").droppable({
         accept: ".card",
         drop: function(event, ui) {
-            var droppedCard = ui.helper;
-            var newColumn = $(this);
-            var newColumnId = newColumn.attr('id');
+            const droppedCard = ui.helper;
+            const newColumn = $(this);
+            const newColumnId = newColumn.attr('id');
             droppedCard.attr('data-column', newColumnId);
             newColumn.append(droppedCard);
         }
