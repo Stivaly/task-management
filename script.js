@@ -70,29 +70,16 @@ $(document).ready(function() {
     $(".card-link").tooltip();
 
     $(".card").draggable({
-        /*revert: "invalid",
-        start: function(event, ui) {
-            $(this).addClass('dragging');
-        },
-        stop: function(event, ui) {
-            $(this).removeClass('dragging');
-        }*/
-    });
+   });
 
     $(".column").droppable({
         accept: ".card",
         drop: function(event, ui) {
             var droppedCard = ui.helper;
             var newColumn = $(this);
-
-            // Actualizar el atributo data-column de la tarjeta
             var newColumnId = newColumn.attr('id');
             droppedCard.attr('data-column', newColumnId);
-
-            // Añadir la tarjeta a la nueva columna
             newColumn.append(droppedCard);
-
-            // Puedes añadir aquí cualquier lógica adicional que necesites
         }
     });
 
