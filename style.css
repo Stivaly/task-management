@@ -58,6 +58,22 @@ footer {
     font-size: 64px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none; 
+}
+
+.carousel-control-prev-icon::after {
+    content: '<'; 
+    font-size: 50px;
+    color: black; 
+}
+
+.carousel-control-next-icon::after {
+    content: '>';
+    font-size: 50px;
+    color: black; 
+}
 .info-h1 {
     color: #2194F3;
     font-family: Inter;
